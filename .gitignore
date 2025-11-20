@@ -1,0 +1,138 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (optional - uncomment if you want to exclude data)
+# data/raw_data.csv
+# data/train.csv
+# data/val.csv
+# data/test.csv
+
+# Logs (keep structure, ignore content)
+logs/*.log
+*.log
+
+# Experimental results (keep examples, ignore all runs)
+results/baselines/*/*.csv
+results/ablations/*/*.csv
+results/main_method/*/*.csv
+results/*.csv
+!results/RESULTS_FORMATTED.csv
+!results/RESULTS_FORMATTED.md
+!results/RESULTS_SUMMARY.csv
+results/figures/*.png
+!results/pareto_front_2d.png
+!results/pareto_front_3d.png
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+checkpoints/
+models/saved/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Archive (keep documentation, ignore results)
+archive/test_results/*.csv
+archive/test_results/*.png
+archive/test_results/*.log
+
+# Misc
+.claude/*
+archive/*
+experiment_run*.log
