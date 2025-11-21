@@ -585,7 +585,7 @@ Comparing **Ablation-2 (Single-Agent)** vs **E-NSGA-II + X-MARL (Multi-Agent)**:
 
 **Pareto Front Analysis**: Figure 1 visualizes the 3D Pareto front showing trade-offs between return, risk (CVaR), and explainability.
 
-**Figure 1**: *3D Pareto Front - Return vs Risk vs Explainability. Our method (E-NSGA-II + X-MARL, shown in red) achieves an optimal position balancing competitive returns (11.93%), best tail risk (CVaR 2.49%), and high explainability. Pure NSGA-II (blue) achieves highest returns but with extreme tail risk and instability.*
+**Figure 1**: *3D Pareto Front - Return vs Risk vs Explainability. Points are colored by explainability score (blue=low, yellow=high) using viridis colormap. The Pareto-optimal solutions demonstrate the fundamental trade-offs between competitive returns, tail risk management (CVaR), and model interpretability. Solutions in the upper-right region (yellow) show high explainability with competitive returns and managed risk.*
 
 **Key Trade-offs Observed**:
 
